@@ -23,3 +23,5 @@ To run the program you must enter :
       1. Number of processes.
       2. Functionalities of each process mentioned above
       3. "exit" string at the end.
+
+Deadlock state is also handled if all the processes request at same time. For example, if after the occurrence of n events all processes are in deadlock, the output whill be showing those n events along with their clocks and then print “system deadlocked”.
