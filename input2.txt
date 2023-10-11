@@ -1,0 +1,12 @@
+#Input to check for system deadlock
+3
+begin process p1
+recv p2 m1
+end process p1
+begin process p2
+recv p3 m2
+end process p2
+begin process p3
+recv p1 m3
+end process p3
+exit
